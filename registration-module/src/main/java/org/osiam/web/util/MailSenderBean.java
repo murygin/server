@@ -44,6 +44,8 @@ import org.springframework.stereotype.Component;
 /**
  * Class for sending mails.
  * Also getting primary email from users email list and loads the mail content as stream.
+ * 
+ * Mails are send by Spring's {@link MailSender}.
  */
 @Component
 public class MailSenderBean {
